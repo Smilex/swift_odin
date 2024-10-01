@@ -2,7 +2,8 @@ package main
 
 import "base:runtime"
 import MTL "vendor:darwin/Metal"
-import NS  "core:sys/darwin/UIKit"
+import NS  "core:sys/darwin/Foundation"
+import "base:intrinsics"
 
 game_context :: struct {
     library: ^MTL.Library,
